@@ -1,0 +1,23 @@
+---
+import Carro from './Carro.astro';
+import carros from '../data/carros.json';
+---
+
+<div class="carros">
+  {carros.map(carro => (
+    <Carro
+      key={carro.id}
+      marca={carro.marca}
+      modelo={carro.modelo}
+      ano={carro.ano}
+      preco={carro.preco}
+    />
+  ))}
+</div>
+
+<style>
+  .carros {
+    display: flex;
+    flex-direction: column;
+  }
+</style>

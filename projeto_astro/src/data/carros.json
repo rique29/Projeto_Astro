@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "ano": 2020,
+      "preco": 30000
+    },
+    {
+      "id": 2,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "ano": 2021,
+      "preco": 32000
+    },
+    {
+      "id": 3,
+      "marca": "Ford",
+      "modelo": "Mustang",
+      "ano": 2022,
+      "preco": 40000
+    }
+  ]
+  

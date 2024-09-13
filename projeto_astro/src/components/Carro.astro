@@ -1,0 +1,21 @@
+---
+const { marca, modelo, ano, preco } = Astro.props;
+---
+
+<div class="carro">
+  <h2>{marca} {modelo}</h2>
+  <p>Ano: {ano}</p>
+  <p>Preço: ${preco}</p>
+</div>
+
+<style>
+  .carro {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 8px 0;
+    border-radius: 8px;
+  }
+  .carro h2 {
+    margin: 0 0 8px;
+  }
+</style>
